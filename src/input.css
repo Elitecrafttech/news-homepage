@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navbar{
+        @apply flex size-full h-[70px] items-center justify-between
+    }
+    .navbar ul{
+        @apply md:flex md:gap-6 md:block hidden
+    }
+    .menu{
+        @apply md:hidden md:block
+    }
+    .web3{
+        @apply flex flex-col gap-12
+    }
+    .hero{
+        @apply md:flex md:gap-7 justify-around
+    }
+    .web{
+        @apply md:size-[70%] size-[100%] flex flex-col gap-6
+    }
+    .desk{
+        @apply md:block hidden
+    }
+    .mobile{
+        @apply md:hidden block
+    }
+    .read{
+        @apply flex md:flex-row flex-col gap-10
+    }
+    .read h1{
+        @apply md:text-[50px] font-bold leading-none text-[50px]
+    }
+    .dive{
+        @apply flex flex-col gap-4 
+    }
+    .dive p{
+        @apply md:w-[32vw] w-[85vw]
+    }
+    button{
+        @apply bg-orange-600 text-white md:w-[10vw] md:font-normal md:h-[6vh] font-medium h-[7vh] w-[30vw]
+    }
+    .hydrogen{
+        @apply bg-gray-950 text-white flex flex-col justify-around p-[20px] md:w-[23vw] md:gap-0 gap-[30px] md:mt-0 mt-10
+    }
+    .hydrogen .nw{
+        @apply text-orange-400 text-3xl
+    }
+    .hydrogen p{
+        @apply font-[10] text-xs md:w-[19vw] w-[52vw]
+    }
+    .hydrogen h1{
+        @apply font-bold text-sm
+    }
+    .view{
+        @apply flex md:flex-row flex-col justify-around md:gap-0 gap-8 pb-10
+    }
+    .view img{
+        @apply h-[130px]
+    }
+    .view h1{
+        @apply font-bold text-3xl text-gray-400
+    }
+    .view h3{
+        @apply font-bold
+    }
+    .view p{
+        @apply w-[40vw] md:w-[15vw] text-xs
+    }
+    .view1{
+        @apply flex gap-4
+    }
+    .view2{
+        @apply flex gap-4
+    }
+    .view3{
+        @apply flex gap-4
+    }
+    .vi1{
+        @apply flex flex-col gap-4
+    }
+    .vi2{
+        @apply flex flex-col gap-4
+    }
+    .vi3{
+        @apply flex flex-col gap-4
+    }
+   
+}
